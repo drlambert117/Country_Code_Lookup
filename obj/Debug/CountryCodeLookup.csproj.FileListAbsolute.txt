@@ -1,0 +1,6 @@
+C:\Users\DRLambert\Dropbox\SafeKeep_S\Mobile Hybrid App Development\Exercises\JSWebServicesWithTypeScript\JSWebServicesWithTypeScript\bin\CountryCodeLookup.dll.config
+C:\Users\DRLambert\Dropbox\SafeKeep_S\Mobile Hybrid App Development\Exercises\JSWebServicesWithTypeScript\JSWebServicesWithTypeScript\bin\CountryCodeLookup.dll
+C:\Users\DRLambert\Dropbox\SafeKeep_S\Mobile Hybrid App Development\Exercises\JSWebServicesWithTypeScript\JSWebServicesWithTypeScript\bin\CountryCodeLookup.pdb
+C:\Users\DRLambert\Dropbox\SafeKeep_S\Mobile Hybrid App Development\Exercises\JSWebServicesWithTypeScript\JSWebServicesWithTypeScript\obj\Debug\CountryCodeLookup.csprojResolveAssemblyReference.cache
+C:\Users\DRLambert\Dropbox\SafeKeep_S\Mobile Hybrid App Development\Exercises\JSWebServicesWithTypeScript\JSWebServicesWithTypeScript\obj\Debug\CountryCodeLookup.dll
+C:\Users\DRLambert\Dropbox\SafeKeep_S\Mobile Hybrid App Development\Exercises\JSWebServicesWithTypeScript\JSWebServicesWithTypeScript\obj\Debug\CountryCodeLookup.pdb
