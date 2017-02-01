@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<!--===========================================================================================================================
+///Country Code Lookup Application
+///Calls Web service that returns Country Name, 2 digit country code, and three digit country code in a generated html table.
+///Created by Dakota Lambert
+================================================================================================================================-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Country Code Lookup</title>
+    <link rel="stylesheet" href="BootStrap.css" type="text/css" />
+    <!--Link to jQuery code library-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!--Link to TypeScript file-->
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="jumbotron text-center">
+            <h2>Country Code Lookup Application</h2>
+            Test uri:http://services.groupkt.com/country/search?text=un
+        </div>
+
+        <label for="countryCodeTextInput" class="lead">Enter part or all of a two or three digit country code!</label>
+        <input type="text" class="form-control" id="countryCodeTextInput" /> <br />
+
+        <div class="text-center">
+            <button class="btn btn-default" id="btnCountryLookup">Country Lookup</button>
+        </div> <br />
+
+        <div id="divDisplayTable" class="text-success"></div><br /><br />
+
+        <div id="divWebServiceDescription" class="form-group">
+
+            <h5>
+                <a class="text-danger" href="http://www.groupkt.com/post/c9b0ccb9/country-and-other-related-rest-webservices.htm">
+                    http://www.groupkt.com/post/c9b0ccb9/country-and-other-related-rest-webservices.htm
+                </a><br />
+                (The specific Web Service Desription is: #4. REST web-service to search country by 3
+                character ISO code or 2 character ISO code or country name)
+            </h5>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
