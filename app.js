@@ -8,7 +8,7 @@
 //========================================================
 var $;
 $(document).ready(function () {
-    console.log("ready function called.");
+    console.log("%c Success %c Ready function called.", 'color: white; background-color: green', '');
     //Button Click on Enter
     $("#countryCodeTextInput").keyup(function (event) {
         if (event.keyCode == 13) {
@@ -22,7 +22,7 @@ $(document).ready(function () {
 //callWebService function
 //========================================================
 function callWebService() {
-    console.log("callWebService function called.");
+    console.log("%c Success %c callWebService function called.", 'color: white; background-color: green', '');
     //Declare and display countryCode input 
     var countryCode;
     countryCode = $("#countryCodeTextInput").val();
@@ -42,7 +42,7 @@ function callWebService() {
 //========================================================
 function cb_CallWebService_Success(retrievedData) {
     //Make sure object was filled
-    console.log("cb_CallWebService_Success function called");
+    console.log("%c Success %c cb_CallWebService_Success function called", 'color: white; background-color: green', '');
     console.dir(retrievedData);
     //Declare Variables
     var loopCounter, numberOfElementsInArray, resultsArray, countryName, countryCode_2Digit, countryCode_3Digit, tableString, tableRowString;
