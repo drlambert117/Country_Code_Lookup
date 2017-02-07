@@ -34,7 +34,7 @@ function callWebService() {
     console.log("countryCode = " + countryCode);
 
     //Build URI for web service call
-    var uriString = "https://services.groupkt.com/country/search?text=" + countryCode;
+    var uriString = "http://services.groupkt.com/country/search?text=" + countryCode;
     console.log("uriString=" + uriString);
     $.ajax({
         url: uriString,
