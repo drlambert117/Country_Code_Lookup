@@ -1,5 +1,5 @@
-# Country_Code_Lookup
-Webpage that calls a Web service that returns Country Name, 2 digit country code, and three digit country code in a generated html table.
+# Country Code Lookup
+Webpage that calls a Web service to return Country Name, 2 digit country code, and three digit country code in a generated html table.
 
 ## Project Motivation
 Created as an assignment for a Front-End Development class.
@@ -11,4 +11,7 @@ Created as an assignment for a Front-End Development class.
 - <a href='https://getbootstrap.com/'>Bootstrap</a>
 
 ## Running the project locally.
-After cloning the repository, download the <a href='https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en-US'>Allow-Control-Allow-Origin extension</a>, this is neccisary to recieve a response from the web service. After the extension is installed, then navigate to the 'country-code-lookup' folder using a file explorer and run the 'index.html' file.
+After cloning the repository, download the <a href='https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en-US'>Allow-Control-Allow-Origin extension</a>. This extension is necessary to recieve a response from the web service.
+### You should disable the extension after you're finished running the web page as it could interfere with other webpages.
+
+After the extension is installed, then navigate to the 'country-code-lookup' folder using a file explorer and run the 'index.html' file.
